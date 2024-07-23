@@ -1,0 +1,255 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1716652544435011, "dur":17051, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716652544452071, "dur":102, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716652544452213, "dur":441, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716652544452874, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles ExecutableFile/exe/Pattern Memory Game 2D_Data/level3" }}
+,{ "pid":12345, "tid":0, "ts":1716652544453402, "dur":101, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716652544453677, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716652544454380, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716652544456365, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1716652544452726, "dur":3736, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716652544456464, "dur":294422, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716652544750887, "dur":235, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716652544751302, "dur":4921, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1716652544452932, "dur":3641, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716652544456576, "dur":704, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716652544457281, "dur":902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716652544458184, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1716652544510786, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1716652544512068, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544514128, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544516201, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544518199, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544520627, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544522519, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544524438, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544526211, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544527943, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544529897, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544532221, "dur":192233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716652544724470, "dur":26426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716652544452892, "dur":3583, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716652544456476, "dur":273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716652544456750, "dur":1438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716652544458189, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1716652544460181, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1716652544461841, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1716652544462728, "dur":31704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1716652544494633, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1716652544495827, "dur":6057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716652544502093, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544505070, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544506399, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544507794, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544509621, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544510962, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544513353, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544515119, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544517186, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544519119, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544521762, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544523390, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544525330, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544527214, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544528849, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544530593, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716652544532853, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716652544536605, "dur":3741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1716652544540383, "dur":210502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716652544452891, "dur":3579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716652544456472, "dur":1674, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716652544511955, "dur":917, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1716652544512876, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1716652544513226, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player5b85e6a1-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1716652544512875, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1716652544513811, "dur":56, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716652544514146, "dur":118795, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1716652544634883, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1716652544634882, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/Pattern Memory Game 2D_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1716652544634985, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1716652544636080, "dur":114822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716652544452898, "dur":3663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716652544456564, "dur":322, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716652544456886, "dur":1290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716652544458188, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716652544512113, "dur":3582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1716652544515710, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544517843, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544519909, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544521915, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544523786, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544525810, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544527539, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544529336, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544531292, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716652544533513, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1716652544536712, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1716652544540484, "dur":210420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716652544452923, "dur":3644, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716652544456569, "dur":427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716652544456997, "dur":1187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716652544458198, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1716652544458186, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1716652544500416, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1716652544501089, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D.exe" }}
+,{ "pid":12345, "tid":5, "ts":1716652544502579, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544503970, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544505668, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544506791, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544508103, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544509589, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544510807, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544513042, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544514772, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544516387, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544518330, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544520083, "dur":2573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544522683, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544524645, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544526328, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544527981, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544529830, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544531700, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716652544533629, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1716652544536937, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1716652544541117, "dur":209773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716652544452964, "dur":3615, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716652544456582, "dur":314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716652544456896, "dur":1286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716652544458200, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1716652544458184, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1716652544511385, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1716652544512377, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544514502, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544516469, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544518904, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544521256, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544523578, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544525425, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544527496, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544529703, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544531716, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716652544533564, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716652544537272, "dur":4456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1716652544541778, "dur":209105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716652544452994, "dur":3591, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716652544456588, "dur":333, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716652544456922, "dur":1256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716652544458192, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1716652544458183, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1716652544511073, "dur":223585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1716652544734676, "dur":16212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716652544453021, "dur":3574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716652544456598, "dur":359, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716652544456957, "dur":1224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716652544458183, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1716652544494355, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1716652544495752, "dur":6105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1716652544502060, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544506253, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544507434, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544508935, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544510026, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544511123, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544513054, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544515142, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544517590, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544519527, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544521729, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544526746, "dur":159, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716652544523964, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544527129, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544529135, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544532029, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716652544534137, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1716652544535797, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1716652544539925, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1716652544542377, "dur":208516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716652544453049, "dur":3560, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716652544456612, "dur":653, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716652544457265, "dur":915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716652544458183, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1716652544459644, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1716652544461830, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1716652544462697, "dur":31699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1716652544494647, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1716652544495942, "dur":6304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1716652544502525, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544506018, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544507124, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544509186, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544510621, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544512300, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544514513, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544516273, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544518309, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544520852, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716652544520917, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544522450, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544524594, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544526551, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544528427, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544530207, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716652544532780, "dur":4721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716652544537546, "dur":4188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716652544541767, "dur":209120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716652544453070, "dur":3545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716652544456617, "dur":54, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716652544456671, "dur":1518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716652544458190, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1716652544500740, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1716652544501966, "dur":229186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1716652544731170, "dur":19731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716652544453110, "dur":3509, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716652544456619, "dur":1560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716652544458198, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1716652544458183, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles ExecutableFile/exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1716652544494980, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1716652544496673, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1716652544497877, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716652544498927, "dur":251895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544453129, "dur":3494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716652544456623, "dur":1554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716652544458206, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544458532, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544458638, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544458779, "dur":446, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544459227, "dur":676, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544459905, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544460085, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544460202, "dur":363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544460567, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544460626, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544460687, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544460852, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544460959, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544461183, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544461317, "dur":528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544461847, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544462120, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544462322, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\eren\\Desktop\\Pattern-Memory-Game-2D-master\\Pattern-Memory-Game-2D-master\\Library\\PackageCache\\com.unity.burst@1.8.12\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":12, "ts":1716652544458183, "dur":4215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":12, "ts":1716652544462399, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716652544494494, "dur":9188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544503705, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544505110, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544506782, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544507872, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544509219, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544510601, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544512203, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544513825, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544515252, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544517355, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544519323, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544521674, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544523064, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544525079, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544527178, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544528915, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544530851, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716652544533069, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716652544536693, "dur":4522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"ExecutableFile/exe/Pattern Memory Game 2D_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1716652544541248, "dur":209643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716652544760256, "dur":1023, "ph":"X", "name": "ProfilerWriteOutput" }
+,
